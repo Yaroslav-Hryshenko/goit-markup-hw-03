@@ -138,7 +138,7 @@ body {
   padding-bottom: 188px;
 }
 .event-conteiner {
-  max-width: 496px;
+  max-width: 527px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -322,7 +322,6 @@ body {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
-  
 }
 .button-menu {
   padding: 12px 24px;
@@ -344,13 +343,11 @@ body {
   border-radius: 4px;
 }
 
-.foto{
+.foto {
   padding-top: 96px;
   padding-bottom: 120px;
-  
 }
 .foto-list {
-
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
@@ -381,7 +378,6 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--text-color);
-  
 }
 .visually-hidden {
   position: absolute;
