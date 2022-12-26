@@ -8,6 +8,32 @@
   --end-name: #e7e9fc;
 }
 
+.a {
+  text-decoration: none;
+  color: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+.button {
+  cursor: pointer;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -19,10 +45,21 @@ body {
 }
 .solutions-for-bisiness {
 }
+
+.conteiner {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /* --------------heder----------- */
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
+  display: flex;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -31,8 +68,9 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* NAVY BLUE */
   color: var(--title-color);
+  margin-right: 76px;
+  margin-left: auto;
 }
 .header-logoone {
   font-family: "Raleway", sans-serif;
@@ -44,6 +82,8 @@ body {
   color: var(--logo-color);
 }
 .header-list {
+  display: flex;
+  gap: 40px;
 }
 .header-item {
 }
@@ -53,13 +93,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
   color: var(--title-color);
 }
 .header-link.current {
   color: var(--btn-fon);
 }
 .header-contakt {
+  display: flex;
+  margin-left: auto;
+}
+.header-hookup {
+  display: flex;
 }
 .header-mail {
   font-family: inherit, sans-serif;
@@ -74,8 +118,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* SLATE */
   color: var(--text-color);
+  margin-left: 40px;
+  margin-right: auto;
 }
 .header-item :hover,
 .header-item :focus {
@@ -88,13 +133,24 @@ body {
 /* -----------event------------ */
 .event {
   background: var(--title-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
+.event-conteiner {
+  max-width: 496px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .event-title {
   font-family: inherit, sans-serif;
   font-size: 56px;
   line-height: 1, 07;
   letter-spacing: 0.02em;
   color: var(--fon-color);
+  margin-bottom: 48px;
 }
 .event-btr {
   font-family: "Roboto", sans-serif;
@@ -114,18 +170,25 @@ body {
 
 /* -------------info-------------- */
 .info {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.info-conteiner {
 }
 .info-list {
+  display: flex;
+  gap: 24px;
 }
 .info-item {
+  width: calc((100%-72px) / 3);
 }
 .info-title {
   font-family: inherit, sans-serif;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
   color: var(--title-color);
+  margin-bottom: 8px;
 }
 .info-after-title {
   font-family: inherit, sans-serif;
@@ -133,13 +196,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* SLATE */
   color: var(--text-color);
 }
 
 /* -------------gadgets-------------- */
 
 .gadgets {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .gadgets-title {
   font-family: inherit, sans-serif;
@@ -148,14 +212,22 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  margin-bottom: 72px;
+  text-align: center;
 }
+
 .gadgets-list {
+  display: flex;
+  gap: 24px;
 }
 .gadgets-item {
+  width: ((100% - 48px)/3);
 }
 /* -------------team-------------- */
 .team {
   background: var(--team-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   font-family: inherit, sans-serif;
@@ -164,14 +236,23 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  margin-bottom: 72px;
+  text-align: center;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .list {
 }
 .team-item {
   background-color: var(--fon-color);
+  text-align: center;
 }
+.team-text {
+  padding: 32px 16px;
+}
+
 .team-name {
   font-family: inherit, sans-serif;
   font-weight: 500;
@@ -179,6 +260,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  margin-bottom: 8px;
 }
 .team-skill {
   font-family: inherit, sans-serif;
@@ -191,6 +273,14 @@ body {
 /* -------------footer-------------- */
 .footer {
   background: var(--text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-conteiner {
+  display: flex;
+  max-width: 264px;
+  margin-left: 156px;
+  flex-wrap: wrap;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -200,6 +290,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--team-color);
+  margin-bottom: 16px;
 }
 .footer-logoone {
   font-family: "Raleway";
@@ -209,7 +300,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* IRIS */
   color: var(--logo-color);
 }
 .footer-text {
@@ -219,11 +309,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* CORNFLOWER */
   color: var(--end-name);
 }
 
 /* -------------button-------------- */
+.button {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  margin: 0 auto;
+}
 .button-menu {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -232,17 +329,29 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button-menu:hover,
 .button-menu:focus {
   background-color: var(--logo-color);
   color: var(--fon-color);
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
 }
 .foto-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .list {
 }
 .foto-item {
+}
+.foto-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .foto-name {
   font-family: inherit, sans-serif;
@@ -251,6 +360,8 @@ body {
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .foto-skill {
   font-family: inherit, sans-serif;
@@ -259,6 +370,7 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding-bottom: 32px;
 }
 .visually-hidden {
   position: absolute;
