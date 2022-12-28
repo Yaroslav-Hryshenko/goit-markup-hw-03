@@ -87,6 +87,7 @@ body {
   gap: 40px;
 }
 .header-item {
+  margin-left: 40px;
 }
 .header-link {
   font-family: inherit, sans-serif;
@@ -120,7 +121,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  margin-left: 40px;
+  
   margin-right: auto;
 }
 .header-item :hover,
@@ -330,14 +331,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--btn-fon);
+  color: var(--logo-color);
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
 .button-menu:hover,
 .button-menu:focus {
-  background-color: var(--logo-color);
+  background-color: var(--btn-fon);
   color: var(--fon-color);
   border: 1px solid #4d5ae5;
   border-radius: 4px;
